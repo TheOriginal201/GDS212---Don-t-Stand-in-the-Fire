@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 2367fef2eca3a6943aa0385cce297b8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1962684866551139691
+    second: TitleBG_Animated_0
+  - first:
+      213: 6375064901341761172
+    second: TitleBG_Animated_1
+  - first:
+      213: 2820608095723509072
+    second: TitleBG_Animated_2
+  - first:
+      213: -1318178281010046760
+    second: TitleBG_Animated_3
+  - first:
+      213: -1726501651495142047
+    second: TitleBG_Animated_4
+  - first:
+      213: 8284379565361296009
+    second: TitleBG_Animated_5
+  - first:
+      213: -4234274790804857519
+    second: TitleBG_Animated_6
+  - first:
+      213: -4357063005120535302
+    second: TitleBG_Animated_7
+  - first:
+      213: 7038755727227165767
+    second: TitleBG_Animated_8
+  - first:
+      213: -3837641078950184162
+    second: TitleBG_Animated_9
+  - first:
+      213: -5622303795700948407
+    second: TitleBG_Animated_10
+  - first:
+      213: -3420813038243575983
+    second: TitleBG_Animated_11
+  - first:
+      213: 8442950568047897271
+    second: TitleBG_Animated_12
+  - first:
+      213: 3660272686966528434
+    second: TitleBG_Animated_13
+  - first:
+      213: 3233736696309792954
+    second: TitleBG_Animated_14
+  - first:
+      213: -2729103424649893778
+    second: TitleBG_Animated_15
+  - first:
+      213: -1240127091930530290
+    second: TitleBG_Animated_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TitleBG_Animated_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1590
+        width: 321
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dc0d4cc7bdc3b10800000000000000
+      internalID: 1962684866551139691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1590
+        width: 321
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e498050c7c87850800000000000000
+      internalID: 6375064901341761172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_2
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1590
+        width: 322
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055d03c6e10d42720800000000000000
+      internalID: 2820608095723509072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1590
+        width: 321
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8d2c166d3e4bde0800000000000000
+      internalID: -1318178281010046760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_4
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1590
+        width: 321
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16db18635eb3a08e0800000000000000
+      internalID: -1726501651495142047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1064
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9827dd9725708f270800000000000000
+      internalID: 8284379565361296009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1064
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d5fac0385dc35c0800000000000000
+      internalID: -4234274790804857519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1064
+        width: 322
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af46bc3184a9883c0800000000000000
+      internalID: -4357063005120535302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_8
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1064
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c1f1e7a0faea160800000000000000
+      internalID: 7038755727227165767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1064
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b3ab975c5fdbac0800000000000000
+      internalID: -3837641078950184162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 537
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422aed6c7099f1b0800000000000000
+      internalID: -5622303795700948407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 537
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157877c7aa4d680d0800000000000000
+      internalID: -3420813038243575983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_12
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 537
+        width: 322
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba6da81fc26b2570800000000000000
+      internalID: 8442950568047897271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_13
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 537
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b954b7ad96ebc230800000000000000
+      internalID: 3660272686966528434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_14
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 537
+        width: 321
+        height: 512
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0c0b8646a80ec20800000000000000
+      internalID: 3233736696309792954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 321
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68e07a05e6402ad0800000000000000
+      internalID: -2729103424649893778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleBG_Animated_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 9
+        width: 321
+        height: 514
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e7429fafe2acee0800000000000000
+      internalID: -1240127091930530290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
