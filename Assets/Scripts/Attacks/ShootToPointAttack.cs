@@ -9,22 +9,28 @@ public class ShootToPointAttack : Attack
     public GameObject attackPrefab;
     public float timeToReachPoint;
 
-    public override void DoAttack(Vector3 point)
+    public float timeToAttack;
+
+    public override void DoAttack(GridPoint point)
     {
         StartCoroutine(AttackSequence(point));
     }
 
-    IEnumerator AttackSequence(Vector3 point)
+    IEnumerator AttackSequence(GridPoint point)
     {
+        point.ShowAttack();
+        yield return new WaitForSeconds(timeToAttack);
+
         Vector3 spawnPoint = projectileSpawnPoint.position;
-        GameObject projectile = Instantiate(projecileEffects, spawnPoint, Quaternion.LookRotation(point - spawnPoint));
+        GameObject projectile = Instantiate(projecileEffects, spawnPoint, Quaternion.LookRotation(point.GetPosition() - spawnPoint));
         float time = 0f;
         while (time < 1f)
         {
             time += Time.deltaTime / timeToReachPoint;
-            projectile.transform.position = Vector3.Lerp(spawnPoint, point, time);
+            projectile.transform.position = Vector3.Lerp(spawnPoint, point.GetPosition(), time);
             yield return null;
         }
-        Instantiate(attackPrefab, point, Quaternion.identity);
+        Instantiate(attackPrefab, point.GetPosition(), Quaternion.identity);
+        point.ShowSafe();
     }
 }

@@ -36,12 +36,14 @@ public class EnemyAI : MonoBehaviour
     private IEnumerator TimelineSequence()
     {
         int currentAttack = 0;
-        while (currentAttack < attackTimeline.Length)
+        while (true)
         {
             AttackEvent attackEvent = attackTimeline[currentAttack];
-            attackEvent.attackComponent.DoAttack(GridMManager.current.GetPosition(attackEvent.gridPosition));
+            attackEvent.attackComponent.DoAttack(GridMManager.current.GetGridPoint(attackEvent.gridPosition));
             yield return new WaitForSeconds(attackEvent.timeToNextAttack);
             currentAttack++;
+
+            currentAttack %= attackTimeline.Length;
         }
     }
 }

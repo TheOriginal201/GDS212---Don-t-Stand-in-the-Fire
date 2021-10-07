@@ -10,7 +10,7 @@ public class Attack : MonoBehaviour
 
     }
 
-    public virtual void DoAttack(Vector3 point) 
+    public virtual void DoAttack(GridPoint point) 
     {
 
     }
