@@ -7,6 +7,7 @@ public class SwipeTest : MonoBehaviour
     public Swipe swipeControls;
     public Transform player;
     private Vector3 desiredPosition;
+    public bool isMoving = false;
     
     private void Update()
     {
@@ -20,6 +21,12 @@ public class SwipeTest : MonoBehaviour
             desiredPosition += new Vector3(0, 0, -5);
 
         player.transform.position = Vector3.MoveTowards(player.transform.position, desiredPosition, 8f * Time.deltaTime);
+
+        if (player.transform.position != desiredPosition)
+        {
+            isMoving = true;
+            //print("Moving");
+        }
     }
 
 }
