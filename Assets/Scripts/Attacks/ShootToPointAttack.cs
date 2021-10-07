@@ -11,6 +11,7 @@ public class ShootToPointAttack : Attack
 
     public float timeToAttack;
 
+
     public override void DoAttack(GridPoint point)
     {
         StartCoroutine(AttackSequence(point));
