@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int damage;
+    public SwipeTest moving;
+    public BossHealth bossHealth;
+    
+    public void Attack()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(moving.isMoving == false)
+        {
+            bossHealth.OnDamage(damage);
+        }
     }
 }
