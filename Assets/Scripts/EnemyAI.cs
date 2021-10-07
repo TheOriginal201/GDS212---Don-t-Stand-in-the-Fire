@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    public Animator anim;
+
     [Serializable]
     public struct AttackEvent
     {
@@ -39,6 +41,7 @@ public class EnemyAI : MonoBehaviour
         while (true)
         {
             AttackEvent attackEvent = attackTimeline[currentAttack];
+            anim.SetTrigger(attackEvent.attackComponent.animationTrigger);
             attackEvent.attackComponent.DoAttack(GridMManager.current.GetGridPoint(attackEvent.gridPosition));
             yield return new WaitForSeconds(attackEvent.timeToNextAttack);
             currentAttack++;

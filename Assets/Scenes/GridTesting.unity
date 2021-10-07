@@ -2775,6 +2775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c34767f5ea3e143826d62f9164a609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationTrigger: Attacking
   projectileSpawnPoint: {fileID: 1075856931}
   projecileEffects: {fileID: 4660321851824637684, guid: 5f9b3e60309a4774abdeabd52ce57a17, type: 3}
   attackPrefab: {fileID: 6794611165968337897, guid: 8f5f6b96bf844444eb66fcd600ecb025, type: 3}
@@ -2792,6 +2793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7e2160f961116940b6baee8892e0025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 3961544315801066651}
   attackTimeline:
   - attackComponent: {fileID: 3961544315801066652}
     gridPosition: {x: 1, y: 1}
