@@ -7,7 +7,7 @@ public class EnemyAI : MonoBehaviour
 {
     public Animator anim;
 
-    bool alive;
+    bool alive = true;
 
     [Serializable]
     public struct AttackEvent
@@ -23,7 +23,6 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        alive = true;
     }
 
     // Update is called once per frame
@@ -45,19 +44,18 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator TimelineSequence()
     {
-        if (alive == true)
+        int currentAttack = 0;
+        while (true)
         {
-            int currentAttack = 0;
-            while (true)
-            {
-                AttackEvent attackEvent = attackTimeline[currentAttack];
-                attackEvent.attackComponent.DoAttack(GridMManager.current.GetGridPoint(attackEvent.gridPosition));
-                anim.SetTrigger(attackEvent.attackComponent.animationTrigger);
-                yield return new WaitForSeconds(attackEvent.timeToNextAttack);
-                currentAttack++;
+            AttackEvent attackEvent = attackTimeline[currentAttack];
+            attackEvent.attackComponent.DoAttack(GridMManager.current.GetGridPoint(attackEvent.gridPosition));
+            anim.SetTrigger(attackEvent.attackComponent.animationTrigger);
+            yield return new WaitForSeconds(attackEvent.timeToNextAttack);
+            currentAttack++;
 
-                currentAttack %= attackTimeline.Length;
-            }
+            currentAttack %= attackTimeline.Length;
+
+            if (alive == false) break;
         }
     }
 }
