@@ -7,6 +7,8 @@ public class BossHealth : MonoBehaviour
     public float maxHealth = 100;
     private float currentHealth = 0;
 
+    public Animator anim;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -34,5 +36,7 @@ public class BossHealth : MonoBehaviour
     {
         UI_HUD.Instance.DisableBossHealthBar();
         Debug.Log(gameObject.name + " died.");
+
+        anim.SetTrigger("Death");
     }
 }
