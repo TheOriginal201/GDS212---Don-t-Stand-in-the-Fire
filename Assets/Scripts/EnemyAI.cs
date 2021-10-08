@@ -7,6 +7,10 @@ public class EnemyAI : MonoBehaviour
 {
     public Animator anim;
 
+    AudioSource aS;
+    public AudioClip attack;
+    public AudioClip death;
+
     bool alive = true;
 
     [Serializable]
@@ -23,6 +27,7 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        aS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,6 +45,7 @@ public class EnemyAI : MonoBehaviour
     {
         StopCoroutine(TimelineSequence());
         alive = false;
+        aS.PlayOneShot(death);
     }
 
     private IEnumerator TimelineSequence()
@@ -52,6 +58,8 @@ public class EnemyAI : MonoBehaviour
             anim.SetTrigger(attackEvent.attackComponent.animationTrigger);
             yield return new WaitForSeconds(attackEvent.timeToNextAttack);
             currentAttack++;
+
+            aS.PlayOneShot(attack);
 
             currentAttack %= attackTimeline.Length;
 
