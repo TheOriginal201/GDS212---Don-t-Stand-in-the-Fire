@@ -9,10 +9,14 @@ public class BossHealth : MonoBehaviour
 
     public Animator anim;
 
+    public GameObject victoryWindow;
+
     private void Start()
     {
         currentHealth = maxHealth;
         UI_HUD.Instance.UpdateBossHealth(currentHealth, maxHealth);
+        victoryWindow = GameObject.FindGameObjectWithTag("VictoryWindow");
+        victoryWindow.SetActive(false);
     }
 
     public bool OnDamage(float amount)
@@ -36,7 +40,14 @@ public class BossHealth : MonoBehaviour
     {
         UI_HUD.Instance.DisableBossHealthBar();
         Debug.Log(gameObject.name + " died.");
-
         anim.SetTrigger("Death");
+        StartCoroutine("Victory");
+    }
+
+    IEnumerator Victory()
+    {
+        yield return new WaitForSeconds(2f);
+        //Time.timeScale = 0;
+        victoryWindow.SetActive(true);
     }
 }
