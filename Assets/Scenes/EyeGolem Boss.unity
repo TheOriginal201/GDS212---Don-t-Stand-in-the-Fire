@@ -228,7 +228,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &183702952
 PrefabInstance:
@@ -490,7 +490,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &300429488 stripped
 Transform:
@@ -602,7 +602,7 @@ Transform:
   m_Children:
   - {fileID: 2351733721481738185}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &327729625
 PrefabInstance:
@@ -773,7 +773,7 @@ Transform:
   - {fileID: 543450653448184515}
   - {fileID: 4445592952067720736}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &376590955
 MonoBehaviour:
@@ -787,8 +787,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c2dd2b664cf51489c0c1aec338c581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 45
   anim: {fileID: 919132149440575612}
+  victoryWindow: {fileID: 1447964491}
 --- !u!4 &406412163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1362047831395208795, guid: 223fc1ababa7ea24cac06fe0aa2677f8, type: 3}
@@ -1440,7 +1441,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &812747497
 PrefabInstance:
@@ -1584,6 +1585,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9058c636add5bf4c98cb11e91cdf029, type: 3}
+--- !u!1001 &878654017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4534392479201612084, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.27788162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.231759
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.98601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534392479201612087, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9627b029fe4a45441bbc0bbbd9076316, type: 3}
 --- !u!1 &887419641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1694,7 @@ Transform:
   - {fileID: 36175371}
   - {fileID: 300429488}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &894403088
 PrefabInstance:
@@ -1784,7 +1842,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 45.966, y: 0, z: 0}
 --- !u!1 &1021305784
 GameObject:
@@ -1956,7 +2014,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1138917712
 PrefabInstance:
@@ -2362,6 +2420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9058c636add5bf4c98cb11e91cdf029, type: 3}
+--- !u!1 &1447964491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1956643223371885864, guid: 8ee21c8b3993f204e81c18d3d900f364, type: 3}
+  m_PrefabInstance: {fileID: 2029175483}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1497685852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9058c636add5bf4c98cb11e91cdf029, type: 3}
@@ -2735,7 +2798,7 @@ Transform:
   - {fileID: 1213489789}
   - {fileID: 676665256}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1889929491 stripped
 Transform:
@@ -3029,7 +3092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6739600077493477977, guid: 8ee21c8b3993f204e81c18d3d900f364, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6739600077493477977, guid: 8ee21c8b3993f204e81c18d3d900f364, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3506,7 +3569,7 @@ MonoBehaviour:
   animationTrigger: Attacking
   projectileSpawnPoint: {fileID: 1576813507}
   projecileEffects: {fileID: 1046782553107866171, guid: a43398d5fdc7d9a41b651701cb7525e6, type: 3}
-  attackPrefab: {fileID: 4393057341216791265, guid: b1860a584dc630b42b93e7211b1f69f1, type: 3}
+  attackPrefab: {fileID: 4393057341216791265, guid: 0fd9960816ad00840a84bf2ecbded242, type: 3}
   timeToReachPoint: 1
   timeToAttack: 0.5
 --- !u!114 &919132149440575611
@@ -3525,10 +3588,544 @@ MonoBehaviour:
   attackTimeline:
   - attackComponent: {fileID: 919132149440575610}
     gridPosition: {x: 1, y: 2}
-    timeToNextAttack: 5
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
   - attackComponent: {fileID: 919132149440575610}
     gridPosition: {x: 1, y: 4}
-    timeToNextAttack: 5
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 1.75
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 1, y: 4}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 2, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 3, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 1}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 4, y: 5}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 2}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 3}
+    timeToNextAttack: 0
+  - attackComponent: {fileID: 919132149440575610}
+    gridPosition: {x: 5, y: 4}
+    timeToNextAttack: 3
 --- !u!95 &919132149440575612
 Animator:
   serializedVersion: 3
@@ -4189,6 +4786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 30
+  anim: {fileID: 3164018365350653302}
+  playerMang: {fileID: 166073370}
 --- !u!114 &3164018365350653304
 MonoBehaviour:
   m_ObjectHideFlags: 0
