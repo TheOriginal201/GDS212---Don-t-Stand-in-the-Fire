@@ -3204,6 +3204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 30
+  anim: {fileID: 0}
+  playerMang: {fileID: 0}
 --- !u!114 &3164018365350653304
 MonoBehaviour:
   m_ObjectHideFlags: 0
