@@ -6,6 +6,7 @@ public class Swipe : MonoBehaviour
 {
     private bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDragging;
+    //public bool isMoving = false;
     private Vector2 startTouch, swipeDelta;
 
     private void Update()
@@ -17,11 +18,13 @@ public class Swipe : MonoBehaviour
         {
             tap = true;
             isDragging = true;
+            //isMoving = true;
             startTouch = Input.mousePosition;
         }
         else if (Input.GetMouseButtonUp(0))
         {
             isDragging = false;
+            //isMoving = false;
             Reset();
         }
         #endregion
@@ -33,11 +36,13 @@ public class Swipe : MonoBehaviour
             {
                 tap = true;
                 isDragging = true;
+                //isMoving = true;
                 startTouch = Input.touches[0].position;
             }
             else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
             {
                 isDragging = false;
+                //isMoving = false;
                 Reset();
             }
         }
@@ -85,6 +90,7 @@ public class Swipe : MonoBehaviour
     private void Reset()
     {
         isDragging = false;
+        //isMoving = false;
         startTouch = swipeDelta = Vector2.zero;
     }
 
