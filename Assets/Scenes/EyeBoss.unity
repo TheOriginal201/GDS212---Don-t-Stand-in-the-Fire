@@ -1469,7 +1469,7 @@ PrefabInstance:
       objectReference: {fileID: 426627405}
     - target: {fileID: 7677320649814892908, guid: fb90472f69503f44ea9bacbecfc7cda5, type: 3}
       propertyPath: maxHealth
-      value: 38
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7677320649814892909, guid: fb90472f69503f44ea9bacbecfc7cda5, type: 3}
       propertyPath: m_RootOrder
