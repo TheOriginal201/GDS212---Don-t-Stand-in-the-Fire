@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/EyeBoss.unity
     guid: 5300e2320e4ebeb43b93c0356ab95d85
   - enabled: 1
+    path: Assets/Scenes/GolemBoss.unity
+    guid: cb33f1bb7fad8614a83bbf5aac0233c8
+  - enabled: 1
     path: Assets/Scenes/EyeGolem Boss.unity
     guid: 1f1ada93c19671f489f46e535b63fdce
   - enabled: 1
