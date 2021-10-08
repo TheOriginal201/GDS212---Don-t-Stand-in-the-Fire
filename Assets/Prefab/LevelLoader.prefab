@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7572068513712478942}
   m_Layer: 5
   m_Name: LevelLoader
-  m_TagString: Untagged
+  m_TagString: LevelLoader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,6 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 7607357760640711218}
   transitionTime: 1
+  title: {fileID: 0}
+  infoWindow: {fileID: 0}
+  levelLoader: {fileID: 0}
 --- !u!1 &4534392479872355876
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +108,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &4534392479872355881
 MonoBehaviour:
